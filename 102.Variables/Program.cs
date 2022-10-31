@@ -1,4 +1,6 @@
-﻿/*
+﻿using _102.Variables;
+
+/*
 
 Bir yazilimda islenecek veriyi RAM' de tutabilmek icin degiskenler kullanilir.
 
@@ -8,21 +10,6 @@ C# tip guvenli (type safety) bir dildir.
 
 */
 
-#region Value(Deger) Type
-// Bir degiskenle RAM de alan aciliyorsa, bu degiskene Deger Turlu degisken denir.
-// Sadece bir deger tutarlar. Adimiz, soyadimiz, d.tarihi... 
-#endregion
-
-#region Primitive Type
-// En ilkel turdur. Olmasi icin baska bir ture ihtiyac duymaz. Ornegin byte..
-
-// IsPrimitive ile turumuzun primitive olup olmadigini kontrol edebiliriz.
-using _102.Variables;
-
-Console.WriteLine(typeof(decimal).IsPrimitive);  // false
-Console.WriteLine(typeof(int).IsPrimitive);  // true
-Console.WriteLine(typeof(byte).IsPrimitive);  // true
-#endregion
 
 string name;
 int age;
@@ -57,3 +44,19 @@ string @surname;
 
 AssigningValuesToVariables assigningValuesToVariables = new AssigningValuesToVariables();
 assigningValuesToVariables.AssigningValues();
+
+// Ondalikli degerlerin default degeri double dir.
+float f1 = 3.14f;
+float f2 = 3.14F;
+
+double d1 = 3.14; // defaul oldugu icin float yada decimal gibi f yada m gibi eklemeler yapmamiz gerekmez.
+double d2 = 3.14d;
+double d3 = 3.14D;
+
+decimal m1 = 3.14m;
+decimal m2 = 3.14M;
+
+assigningValuesToVariables.DefaultValues();
+
+DeepAndShallowCopy deepAndShallowCopy = new DeepAndShallowCopy();
+deepAndShallowCopy.DeepCopy();
