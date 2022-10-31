@@ -13,9 +13,11 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KelimeArama", "PracticeApps
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sayisal_Loto", "PracticeApps\Sayisal_Loto\Sayisal_Loto.csproj", "{F006B6F4-97AD-482C-B90F-3681C976E107}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "101.What_Is_Main", "101.What_Is_Main\101.What_Is_Main.csproj", "{C7B72A1A-3D6A-4F8C-A986-39E23550722D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "101.What_Is_Main", "101.What_Is_Main\101.What_Is_Main.csproj", "{C7B72A1A-3D6A-4F8C-A986-39E23550722D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "102.Variables", "102.Variables\102.Variables.csproj", "{C8DA627B-63ED-42A3-9C78-A6A25F314220}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "102.Variables", "102.Variables\102.Variables.csproj", "{C8DA627B-63ED-42A3-9C78-A6A25F314220}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "103.ObjectType", "103.ObjectType\103.ObjectType.csproj", "{DCD9E39A-C337-4BF0-AD19-13E9C946FBF9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -47,6 +49,10 @@ Global
 		{C8DA627B-63ED-42A3-9C78-A6A25F314220}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C8DA627B-63ED-42A3-9C78-A6A25F314220}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C8DA627B-63ED-42A3-9C78-A6A25F314220}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DCD9E39A-C337-4BF0-AD19-13E9C946FBF9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DCD9E39A-C337-4BF0-AD19-13E9C946FBF9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DCD9E39A-C337-4BF0-AD19-13E9C946FBF9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DCD9E39A-C337-4BF0-AD19-13E9C946FBF9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
